@@ -2,14 +2,17 @@
 <template>
   <div class="w-full grow h-full flex flex-col items-center justify-center">
     <div class="mb-8">
-      <CompanyLogo
-        imgLink="https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
-      />
+      <CompanyLogo imgLink="/logo.jpg" />
     </div>
     <h2 class="text-2xl font-bold">Привет от Керамир!</h2>
-    <div class=" mt-4 flex flex-col items-stretch w-full max-w-xs">
+    <div class="mt-4 flex flex-col gap-2 items-stretch w-full max-w-xs">
       <CompanyButton href="tel:+77000212034">
         +7 (700) 021 20-34
+      </CompanyButton>
+      <CompanyButton
+        href="https://kuula.co/share/collection/7cTzh?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1"
+      >
+        Панорамы с нашей плиткой
       </CompanyButton>
     </div>
     <div class="mt-4 divide-y">
